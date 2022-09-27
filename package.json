@@ -1,0 +1,19 @@
+{
+  "name": "three-globe",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9",
+    "vite-plugin-string": "^1.1.2"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "gsap": "^3.10.4",
+    "tween.js": "^16.6.0"
+  }
+}

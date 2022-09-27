@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+	background: black;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin-top: 0px;
+
+}
+
+
+.container{
+	background-color: black;
+	color: white;
+	text-align: center;
+	overflow-x:auto;
+	font-family: 'Exo 2', sans-serif;
+}	
+
+
+button {
+	background-color: red;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	padding: 5px;
+	font-family: 'Exo 2', sans-serif;
+	border-radius: 10px;
+}
+
+
+button:hover{
+	background-color: white;
+	color: red;
+	font-family: 'Exo 2', sans-serif;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+
+table{
+	width: 50%;
+}
+
+
+th, td {
+	padding: 15px;
+}
+
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+td:hover {background-color: coral;}
+
+
+.div1{
+	display: flex;
+	flex-direction: column;
+	height: 35%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.div2{
+	height: 65%;
+	height: 100vh;
+}
+
+
+.p1{
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 5px;
+margin-top: 0px;
+font-family: 'Exo 2', sans-serif;
+font-weight: 900;
+font-style: italic;
+font-size: 30px;
+}
+
+
+.p2{
+margin-left: 50px;
+margin-right: 50px;
+font-family: 'Exo 2', sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 22px;
+text-align:justify/left/right/center;
+text-justify:values;
+}
+
+
+#app {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+	margin-top: 60px;
+  }
+  
